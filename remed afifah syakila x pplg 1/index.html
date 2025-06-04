@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <div class="navbar">
+        <h1>Laptop Kece</h1>
+        <ul>
+                <li>Beranda</li>
+                <li>Produk</li>
+                <li>Kontak</li>
+            </ul>
+    </div>
+    
+    <div class="fitur">
+        <img src="laptop.jpg" alt="laptop">
+        <div class="konten-fitur">
+            <h2>Laptop Terkece - YYBOOK X</h2>
+            <p>Ringan, cepat, dan buatan anak bangsa!</p>
+            <button class="button" id="detailbutton">Lihat Detail</button>
+
+            <div id="detaildeskripsi" style="display: none; margin-top: 10px; text-align: center;">
+                <p><strong>Spesifikasi</strong>RAM 8GB, SSD 512GB, Layar 14"</p>
+                <p><strong>Harga:</strong>Rp 5.500.000</p>
+            </div>
+        </div>
+    </div>
+
+    <div id="produkgrid" class="produk-grid"></div>
+
+            <div class="tambah-produks">
+                <h3>Tambah Produk Baru</h3>
+                <input type="text" id="namaproduk" placeholder="Nama Produk">
+                <input type="text" id="deskproduk" placeholder="Deskripsi">
+                <input type="text" id="hargaproduk" placeholder="Harga (Rp)">
+                <button onclick="tambahProduks()">Tambah</button>
+            </div>
+            <div class="wrapper"></div>
+            
+            <footer>
+                © 2025 LaptopKece. Dibuat oleh orang rahasia.
+            </footer>
+            <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+            <script src="script.js"></script>
+</body>
+</html>
